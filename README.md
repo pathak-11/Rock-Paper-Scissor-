@@ -3,7 +3,7 @@
 - I wanted to test my ability to code in Python with the very first game I learnt in US during the spring of 2024.
 
 ---
-Rock, paper, scissors. T
+Rock, paper, scissors. 
 ---
 ```bash
 import random 
