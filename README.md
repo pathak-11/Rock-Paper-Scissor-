@@ -1,8 +1,9 @@
 ##### Rock-Paper-Scissor
 - Very first things that I learnt into my Python Journey
+- I wanted to test my ability to code in Python with the very first game I learnt in US during the spring of 2024.
 
 ---
-Rock, paper, scissors 
+Rock, paper, scissors. T
 ---
 ```bash
 import random 
@@ -19,7 +20,7 @@ def get_choices():
 
   return choices 
 ```
-   
+ ##### Conditional on the situation of the game  
 ```bash
 def check_win(player, computer): 
 
