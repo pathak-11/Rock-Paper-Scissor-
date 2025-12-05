@@ -1,12 +1,11 @@
-# Rock-Paper-Scissor
-Very first things that I learnt into my Python Journey
+##### Rock-Paper-Scissor
+- Very first things that I learnt into my Python Journey
 
-
+---
 Rock, paper, scissors 
-
+---
+```bash
 import random 
-
- 
 
 def get_choices(): 
 
@@ -19,9 +18,9 @@ def get_choices():
   choices = {"player": player_choice, "computer": computer_choice} 
 
   return choices 
-
+```
    
-
+```bash
 def check_win(player, computer): 
 
   print (f"You_chose {player}, computer_chose {computer}") 
@@ -60,10 +59,12 @@ def check_win(player, computer):
 
     return "Rock smashes scissors! You loose." 
 
- 
+ ```
+```bash
 
 choices = get_choices() 
 
 result = check_win(choices["player"], choices["computer"]) 
 
 print(result) 
+```
